@@ -54,7 +54,7 @@ body {
 padding-left: 200px;
 padding-top: 40px;
  position: absolute;
- width: 360px;
+ width: 30%;
  font-weight: 600;
  text-align: center;
 
@@ -91,13 +91,16 @@ padding-top: 40px;
 }
 .in-right-logo{
     margin-right: 260px;
+    width: 90%
 }
 .form{
     bottom: 0;
     padding-top: 80px;
     margin-right: 260px;
     float: right;
-    color: #000
+    color: #000;
+    position: absolute;
+    width: 70%;
 }
 .right-logo span, .right-logo a {
  margin-left: 15px;
@@ -220,7 +223,7 @@ padding-top: 40px;
  width: 100%;
 }
 .subject {
- float: left;
+ /* float: left; */
 }
 .subject ul li {
  line-height: 30px;

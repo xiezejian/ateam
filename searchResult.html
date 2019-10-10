@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<title>创新创业</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
+
+<!-- 公用样式 -->
+<link rel="stylesheet" type="text/css" href="style/base.css">
+<link rel="stylesheet" type="text/css" href="style/default.css">
+<!-- 风格样式 -->
+<!-- 引入样式 -->
+<link rel="stylesheet" href="style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/theme.css">
+<link rel="stylesheet" href="style/list.css">
+<script type="text/javascript" src="style/jquery.js"></script>
+<script type="text/javascript" src="style/global.js" charset="UTF-8"></script>
+<script type="text/javascript" src="style/text-marquee.js"></script>
+<script type="text/javascript" src="style/search.js"></script>
+<script type="text/javascript">$(function(){$("#marquee").kxbdMarquee({isEqual:!1,direction:"up"})})</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="style/_sitegray_d.css">
+<!-- CustomerNO:77656262657232307c7847545255554003050000 -->
+<link rel="stylesheet" type="text/css" href="%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/index.css">
+<meta name="keywords" content="创新创业,首页">
+<script type="text/javascript" src="%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/counter.js"></script>
+<script type="text/javascript">_jsq_(2018,'/index.jsp',-1,1260862946)</script>
+</head>
+<body><!-- 全局头部 -->
+<div id="ghead">
+</div>
+<div id="head" class="awHead"><div class="right-logo"><!--#begineditable name="主页|收藏" action="webber.wbst.com.basecomponent.BaseComponent" layout="/system/_component/basecomponent/tplindexconfig.jsp" tpltype="1" contype="" clone="" viewid="52485" contentviewid="undefined" tagname="主页|收藏"-->
+<script language="javascript">
+function dosuba52485a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa52485a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa52485a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea52485a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+<div class="in-right-logo">
+<span>招生代码 <strong>12668</strong></span>            
+<a href="http://www.thxy.edu.cn/" target="_blank">学校首页</a> 
+<a href="javascript:setHomepagea52485a()">设为首页</a>
+<a onclick="javascript:dosuba52485a();" href="#">加入收藏</a>
+</div><!--#endeditable-->
+<!-- 搜索框 -->
+<div class="form">
+        <form action="" method="post" >
+                <input type="text" value="请输入关键词！" id="key" onclick="setZero()" onblur="if(value==''){value='请输入关键词'}";>
+                <!-- <input type="submit" name="submit" value="提交"> -->
+                <button type="button" class="btnSearch" id="keyResult" onclick="jump()">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+                      </button>
+            
+            </form>
+</div>
+
+</div>
+<!--#begineditable clone="0" namechanged="0" order="0" ispublic="0" tagname="LOGO" viewid="52455" contentviewid="" contype="" stylesysid="" layout="" action="" name="LOGO"-->
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<!--<a href="/" title="创新创业"><img src="/system/_component/basecomponent/logo_preview.gif" width="1000" height="130"   border="0" alt="创新创业" title="创新创业" ></a>-->
+<div class="logo">
+    <span class="imgC"><img src="img/college_logo.png" alt="" ></span>
+    <p class="logo-font">创新创业</p>
+</div><!--#endeditable--></div>
+<div id="nav">
+<ul id="menu" class="aw"><!--#begineditable clone="0" namechanged="0" order="1" ispublic="0" tagname="网站导航" viewid="52442" contentviewid="" contype="" stylesysid="" layout="" action="" name="网站导航"-->    <li id="tid2018" class="pli"><a href="http://cx.thxy.edu.cn/index.htm" title="首页">首页</a>
+    </li>
+    <li id="tid2019" class="pli"><a href="http://cx.thxy.edu.cn/sczn.htm" title="新闻动态">新闻动态</a>
+    </li>
+    <li id="tid2070" class="pli"><a href="http://cx.thxy.edu.cn/xxgz.htm" title="通知公告">通知公告</a>
+    </li>
+    <li id="tid2020" class="pli"><a href="http://cx.thxy.edu.cn/dxal.htm" title="政策法规">政策法规</a>
+    </li>
+    <li id="tid2021" class="pli curt"><a href="http://cx.thxy.edu.cn/dsdw.htm" title="学校制度">学校制度</a>
+    </li>
+    <li id="tid2021" class="pli curt"><a href="#" title="双创咨讯">双创咨讯</a>
+    </li>
+    <li id="tid2022" class="pli"><a href="http://cx.thxy.edu.cn/xsjl.htm" title="双创基地">双创基地</a>
+    </li>
+    <li id="tid2023" class="pli"><a href="http://cx.thxy.edu.cn/jdjs.htm" title="创业团队">创业团队</a>
+    </li>
+<!--#endeditable--></ul></div>
+<div id="contain" class="aw">
+<script>$(function(){var navH=$("#right_contain").offset().top;$(window).scroll(function(){var scroH=$(this).scrollTop();if(scroH>=navH){$("#right_contain").css({"position":"fixed","top":0, "left": "50%","margin-left": "244px"});}else if(scroH<navH){$("#right_contain").css({"position":"static", "left": 0, "margin-left": 0});}})})</script>
+<div id="right_contain" class="r-sidebar fr">
+<div class="sidelist entry rel subject">
+<div class="title">相关栏目</div>
+<ul><!--#begineditable clone="0" namechanged="0" order="2" ispublic="0" tagname="二级目录导航" viewid="52475" contentviewid="" contype="" stylesysid="" layout="" action="" name="同级栏目"--><!--#endeditable--></ul></div>
+<div class="sidelist entry rel hotline">
+<div class="title">院系热点</div>
+<!--#begineditable clone="0" namechanged="0" order="0" ispublic="0" tagname="热点文章" viewid="52479" contentviewid="" contype="" stylesysid="" layout="" action="" name="热点文章"--><script language="javascript" src="%E5%8F%8C%E5%88%9B%E6%8C%87%E5%8D%97-%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/jquery-latest.js"></script><script language="javascript" src="%E5%8F%8C%E5%88%9B%E6%8C%87%E5%8D%97-%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/dynclicks.js"></script>
+<div id="load_div_u4" class="winstyle52479" style="width: 100%; height: 100%; text-align: center; vertical-align: middle; display: none;"><img src="%E5%8F%8C%E5%88%9B%E6%8C%87%E5%8D%97-%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/loading.gif" border="0"></div>
+<table class="winstyle52479" id="hotnews_content_table_u4" style="" width="100%" cellspacing="0" cellpadding="0">
+<tbody><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+           <td valign="middle" align="left"><a class="c52479" target="_blank" title="关于申报2019年校级大学生创新创业训练计划项目通知" href="http://cx.thxy.edu.cn/info/2022/1231.htm">关于申报2019年校级大学生创新创业训练计划项目通知</a></td>
+           <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td>
+           </tr><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+            <td valign="middle" align="left"><a class="c52479" target="_blank" title="众创空间首批入驻项目评审会圆满结束" href="http://cx.thxy.edu.cn/info/2022/1243.htm">众创空间首批入驻项目评审会圆满结束</a></td>
+            <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td>
+            </tr><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+            <td valign="middle" align="left"><a class="c52479" target="_blank" title="学校众创空间关于2019年度入驻项目的公示" href="http://cx.thxy.edu.cn/info/2022/1244.htm">学校众创空间关于2019年度入驻项目的公示</a></td>
+            <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td>
+            </tr><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+            <td valign="middle" align="left"><a class="c52479" target="_blank" title="我校举办创新创业型人才成长之路专题讲座" href="http://cx.thxy.edu.cn/info/2022/1241.htm">我校举办创新创业型人才成长之路专题讲座</a></td>
+            <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td>
+            </tr><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+            <td valign="middle" align="left"><a class="c52479" target="_blank" title="关于公布2019年度众创空间入驻项目的通知" href="http://cx.thxy.edu.cn/info/2022/1245.htm">关于公布2019年度众创空间入驻项目的通知</a></td>
+            <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td>
+            </tr><tr><td width="10" valign="middle" nowrap="nowrap" align="center"><span><img src="img/page.png" border="0" align="absmiddle"></span></td>
+            <td valign="middle" align="left"><a class="c52479" target="_blank" title="巫泽慧同学入选“青创100”广东大学生创新创业引领计划" href="http://cx.thxy.edu.cn/info/2022/1247.htm">巫泽慧同学入选“青创100”广东大学生创新创业引领计划</a></td>
+            <td width="1%" valign="middle" nowrap="nowrap" align="right"><span width="1%"><span></span></span></td></tr></tbody></table>
+<script type="text/javascript">
+function getHotNewsTitleu4()
+{
+    var mediaisshow = 'false';
+    var _this = this;
+    var loaddiv = jQuery("#load_div_u4");
+    var contenttable = jQuery("#hotnews_content_table_u4");
+    _this.t_body = jQuery("#hotnews_content_table_u4");
+    _this.clickshow = false;
+    _this.clickname = '点击';
+    _this.clickstyle = 'clickstyle52479';
+    _this.endimageposition = false;
+    _this.isfollowtilte = false;
+    //构造 参数
+    var param =  {owner:'1260862946',treeid:'2019',viewid:'52479',mode:'10',
+            locale:'zh_CN',
+            pageUrl:'/system/_owners/cxcy/_webprj/list.jsp',uniqueId:'u4',
+            PAGENUM:_this.curpage,actionmethod:'getnewslist'}
+     var ajaxurl  = "/system/resource/js/news/hotdynpullnews.jsp";        
+     _this._getResult = function()
+     {
+        jQuery.post(ajaxurl,param,
+            function(data){
+                _this.dataloadComplete(data);
+            },
+            "json"
+        );
+      }
+      _this.show = function()
+      {
+        loaddiv.css("display","none");
+        contenttable.css("display","");
+      }
+      var newsidarray = new Array();
+      var newsidspanarray = new Array();
+     //数据加载
+     _this.dataloadComplete = function(data)
+     {
+             if(data&&data.length>0)
+            {
+                 var  img = '';
+                 var video = ''; 
+                 var attach = ''; 
+                 
+                 var isshowimg = false;
+                 var showimgalign =  '';
+                 var isshowvideo = false;
+                 var showvideoalign = 'left';
+                 var isshowattach = false;
+                 var showattachalign = 'left';
+                 for(var i=0;i<data.length;i++)
+                 {
+                     var notice_val = data[i];
+                     var wbishaveimg = notice_val.wbishaveimg;
+                     var wbishavevideo = notice_val.wbishavevideo;
+                     var wbhasattach = notice_val.wbhasattach;
+                     var wbpicurl = notice_val.wbpicurl;
+                     if(mediaisshow&&wbpicurl!=null&&wbpicurl!="")
+                     {
+                        var pic_tr = jQuery("<tr></tr>");
+                        var pic_td = jQuery("<td colspan='5'></td>");
+                        pic_td.html(notice_val.picdiv);
+                        _this.t_body.append(pic_tr);
+                     }
+                     var notice_tr = jQuery("<tr></tr>");
+                     //前导图
+                     var leader_td = jQuery("<td align='center' valign='middle' width=10 nowrap ></td>");
+                     var leaderspan =jQuery("<span ><img src='/images/page.png' align='absmiddle' border='0'></span>");
+                     leaderspan.addClass("");
+                     leader_td.append(leaderspan);
+                     notice_tr.append(leader_td);
+                     var title_td = jQuery("<td valign='middle' align='left' ></td>");
+                     title_td.addClass("");
+                     
+                     var columnstr = jQuery(notice_val.columnstr);
+                     title_td.append(columnstr);
+                     
+                     if(isshowimg&&showimgalign=="left"&&(wbishaveimg==1))
+                     {
+                        var imgspan = jQuery("<span >"+img+"</span>");
+                        title_td.append(imgspan);
+                     }
+                     if(isshowvideo&&showvideoalign=="left"&&(wbishavevideo==1))
+                     {
+                        var videospan = jQuery("<span >"+video+"</span>");
+                        title_td.append(videospan);
+                     }
+                     if(isshowattach&&showattachalign=="left"&&(wbhasattach==1))
+                     {
+                        var attachspan = jQuery("<span >"+attach+"</span>");
+                        title_td.append(attachspan);
+                     }
+                     
+                     var link_a = jQuery("<a class='c52479' target=_blank  title='"+notice_val.showtitle+"'>"+notice_val.title+"</a>");
+                     link_a.attr("href",notice_val.linkurl);
+                     title_td.append(link_a);
+                     if(false)
+                     {
+                        var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                        title_td.append(endimgspan);
+                     }
+                     
+                     if(isshowimg&&showimgalign=="right"&&(wbishaveimg==1))
+                     {
+                        var imgspan = jQuery("<span >"+img+"</span>");
+                        title_td.append(imgspan);
+                     }
+                     if(isshowvideo&&showvideoalign=="right"&&(wbishavevideo==1))
+                     {
+                        var videospan = jQuery("<span >"+video+"</span>");
+                        title_td.append(videospan);
+                     }
+                     if(isshowattach&&showattachalign=="right"&&(wbhasattach==1))
+                     {
+                        var attachspan = jQuery("<span >"+attach+"</span>");
+                        title_td.append(attachspan);
+                     }
+                     
+                     if(_this.clickshow)
+                     {
+                        var clicktimespan = jQuery("<span></span>");
+                        clicktimespan.html("("+_this.clickname+"&nbsp;<span id='_wzdjcs_"+notice_val.newsid+"' name='_wzdjcs_"+notice_val.newsid+"'></span>"+")");
+                        clicktimespan.addClass(_this.clickstyle);
+                        newsidarray.push(notice_val.newsid);
+                        newsidspanarray.push("_wzdjcs_"+notice_val.newsid);
+                        title_td.append(clicktimespan);
+                     }
+                     
+                     if(false)
+                     {
+                         var time_span = jQuery("<span width='1%' ></span>")
+                         
+                         time_span.addClass("");
+                         if(true)
+                         {
+                             var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                             time_span.append(endimgspan);
+                         }  
+                         title_td.append(time_span); 
+                     }
+                     notice_tr.append(title_td);
+                     
+                     
+                     if(true)
+                     {
+                        var time_td = jQuery("<td valign='middle' align=right   width='1%' nowrap>");
+                        time_td.addClass("");
+                        
+                        if(true)
+                        {
+                            var time_span = jQuery("<span width='1%' ></span>")
+                            var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                            time_span.append(endimgspan);
+                            time_td.append(time_span);
+                        }
+                        notice_tr.append(time_td);
+                     }
+                     
+                     _this.t_body.append(notice_tr);
+                     
+                     var lineimg = '';
+                     if(lineimg!=null&&lineimg!='')
+                     {
+                        var lineimgheight = 1;
+                        var line_tr = jQuery("<tr><td colspan='4' height='" + lineimgheight + "' BACKGROUND='" + lineimg + "'></td></tr>")
+                        _this.t_body.append(line_tr);
+                     }
+                 }
+                 _showDynClickBatch(newsidspanarray,newsidarray,'wbnews','1260862946');
+            }else
+            {
+                _this.t_body.append("<tr><td colspan=4 align=center style='color:#222222;font-size:12px;'>没有记录</td></tr>");
+            }      
+     }
+}
+jQuery(document).ready(function(){
+    var showcontentu4 = new getHotNewsTitleu4();
+    showcontentu4._getResult();
+    showcontentu4.show();
+});
+</script><!--#endeditable--></div></div>
+<div id="center_contain" class="m-contain l-sm">
+<div class="ec">
+<div class="title"><!--#begineditable clone="0" namechanged="0" order="3" ispublic="0" tagname="当前位置" viewid="52452" contentviewid="" contype="" stylesysid="" layout="" action="" name="当前位置"--><a href="http://cx.thxy.edu.cn/index.htm">首页</a><span>»</span>
+<a href="http://cx.thxy.edu.cn/sczn.htm">搜索结果</a><span>»</span>
+<!--#endeditable--></div><!--#begineditable clone="0" namechanged="0" order="4" ispublic="0" tagname="静态翻页列表" viewid="52450" contentviewid="" contype="" stylesysid="" layout="" action="" name="静态翻页列表"-->
+
+<script language="javascript" src="%E5%8F%8C%E5%88%9B%E6%8C%87%E5%8D%97-%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/statpagedown.js"></script>
+<!-- <ul>
+<li><span class="d fr">2016年06月06日</span><a title="国务院关于进一步做好新形势下就业创业工作的意见" href="http://cx.thxy.edu.cn/info/2019/1036.htm" alt="国务院关于进一步做好新形势下就业创业工作的意见">国务院关于进一步做好新形势下就业创业工作的意见</a></li> 
+   
+    <span id="section_u6_0" style="display:none"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC"></span>
+<li><span class="d fr">2016年06月06日</span><a title="广州市人力资源和社会保障局广州市财政局关于印发广州市创业带动就业补贴办法的通知" href="http://cx.thxy.edu.cn/info/2019/1033.htm" alt="广州市人力资源和社会保障局广州市财政局关于印发广州市创业带动就业补贴办法的通知">广州市人力资源和社会保障局广州市财政局关于印发广州市创业带动就业补贴办法...</a></li> 
+    
+    <span id="section_u6_1" style="display:none"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC"></span>
+<li><span class="d fr">2016年06月06日</span><a title="国务院办公厅关于发展众创空间推进大众创新创业的指导意见" href="http://cx.thxy.edu.cn/info/2019/1032.htm" alt="国务院办公厅关于发展众创空间推进大众创新创业的指导意见">国务院办公厅关于发展众创空间推进大众创新创业的指导意见</a></li> 
+    
+    <span id="section_u6_2" style="display:none"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC"></span>
+<li><span class="d fr">2016年06月06日</span><a title="国务院关于大力推进大众创业万众创新若干政策措施的意见" href="http://cx.thxy.edu.cn/info/2019/1031.htm" alt="国务院关于大力推进大众创业万众创新若干政策措施的意见">国务院关于大力推进大众创业万众创新若干政策措施的意见</a></li> 
+    
+    <span id="section_u6_3" style="display:none"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC"></span>
+<li><span class="d fr">2016年06月06日</span><a title="广东出台新政策鼓励创业 力推创业孵化基地" href="http://cx.thxy.edu.cn/info/2019/1028.htm" alt="广东出台新政策鼓励创业 力推创业孵化基地">广东出台新政策鼓励创业 力推创业孵化基地</a></li> 
+
+    <span id="section_u6_4" style="display:none"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC"></span>
+</ul> -->
+<div class="pagebreak"><input type="hidden" name="actiontype" value=""><input type="hidden" name="urltype" value="tree.TreeTempUrl"><input type="hidden" name="_scode_" value="1545040533488"><input type="hidden" name="outFlag" value="false"><input type="hidden" name="wbtreeid" value="2019">
+<style type="text/css">
+.headStyle1c2dmbosga, .headStyle1c2dmbosga td, .headStyle1c2dmbosga div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: hand; line-height:14px;}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1c2dmbosga a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1c2dmbosga a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1c2dmbosga .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff; color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1c2dmbosga .SelectList {font-size: 12px;font-family:宋体; height:16px;line-height:14px;}
+.headStyle1c2dmbosga .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1c2dmbosga .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1c2dmbosga .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1c2dmbosga .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1c2dmbosga .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1c2dmbosga a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1c2dmbosga a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1c2dmbosga a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+</style><script language="javascript" src="%E5%8F%8C%E5%88%9B%E6%8C%87%E5%8D%97-%E5%88%9B%E6%96%B0%E5%88%9B%E4%B8%9A_files/gotopage.js"></script><script type="text/javascript">function a52450_gopage_fun(){_simple_list_gotopage_fun(1,'a52450GOPAGE',2)}</script><table cellspacing="0" cellpadding="0" border="0"><tbody><tr><td colspan="0"><table class="headStyle1c2dmbosga" width="100%" cellspacing="0" cellpadding="1"><tbody><tr valign="middle"><td id="fanye52450" width="1%" nowrap="nowrap" align="left">共5条&nbsp;&nbsp;1/1&nbsp;</td><td nowrap="nowrap" align="left"><div><span class="PrevDisabled">首页</span><span class="PrevDisabled">上页</span><span class="NextDisabled">下页</span><span class="NextDisabled">尾页</span></div></td></tr></tbody></table></td></tr></tbody></table></div><script>_showDynClickBatch(['dynclicks_u6_1036','dynclicks_u6_1033','dynclicks_u6_1032','dynclicks_u6_1031','dynclicks_u6_1028'],[1036,1033,1032,1031,1028],"wbnews", 1260862946)</script><!--#endeditable--></div></div></div>
+<div id="foot" class="aw"><!--#begineditable clone="0" namechanged="0" order="5" ispublic="0" tagname="版权" viewid="52441" contentviewid="" contype="" stylesysid="" layout="" action="" name="版权"--><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p align="center">广东技术师范大学天河学院 教务处<br>地址：综合楼二楼　电话：020-87478434&nbsp;&nbsp;</p><!--#endeditable--></div>
+
+<div class="backToTop"></div></body></html>

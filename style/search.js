@@ -5,5 +5,5 @@ function setZero(){
 }
 //点击搜索跳转
 function jump(){
-    window.open("http://www.baidu.com")
+    window.open("searchResult.html")
 }
