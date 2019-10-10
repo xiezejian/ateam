@@ -1,0 +1,130 @@
+@charset "utf-8";
+theme color {
+ color1: #114b6f;
+ color2: #0f3953;
+ color3: #1780ac;
+ color4: #032432;
+}
+body {
+ background-color: #fff;
+}
+a {
+ color: #000;
+}
+a:hover {
+ color: #1780ac;
+}
+#ghead {
+ border-top: 2px solid #114b6f;
+}
+#nav {
+ background: #114b6f;
+ border-top: 5px solid #0f3953;
+}
+#menu li a {
+ color: #fff;
+ background-image: url(images/nav-halving-line.png);
+ background-position: right center;
+ background-repeat: no-repeat;
+}
+#menu li a:hover {
+ background: #0f3953;
+}
+#menu li.curt a {
+ color: #fff;
+}
+#menu li .sub li {
+ background: #0f3953 none repeat scroll 0 0 !important;
+}
+#menu li .sub a {
+ color: #fff;
+}
+#menu li .sub li a:hover {
+ background-color: #032432;
+}
+#banner .intro {
+ background: #0f3953;
+ color: #f8f8f8;
+}
+#foot {
+ border-top: 2px solid #114b6f;
+ color: #333;
+}
+.hf {
+ background-color: #fff;
+}
+.hf .d, .sidelist ul li span {
+ color: #666;
+}
+.hf ul li a, .m-contain .ec ul li a {
+ background: url(images/dot.png) left center no-repeat;
+}
+.m-contain .ec {
+ border-color: #d1d1d1;
+}
+.m-contain .ec .b img {
+ border-color: #1780ac;
+}
+.title .more {
+ color: black;
+ font-size: 10px;
+}
+#news .title_s {
+ background: #114b6f;
+}
+.m-contain .obox .title, .sidelist.imglist .title, .sidelist.hotline .title, .sidelist.newslist .title, .sidelist.normallist .title  {
+ border-bottom: 2px solid #0f3953;
+}
+.sublink ul li {
+ background-image: url(images/dot.png);
+}
+.slie {
+ border-color: #1780ac;
+}
+.subject {
+ background: #f1f1f1;
+}
+.subject .title {
+ border-bottom: 2px solid #0f3953;
+}
+.subject ul li a:hover {
+ background: #114b6f;
+ color: #f8f8f8;
+}
+.pagebreak a.Prev:hover, .pagebreak a.Next:hover, .pagebreak input#gotopagebut:hover {
+ background: #0f3953;
+ color: #fff;
+ border: 1px solid #0f3953!important;
+}
+.pagebreak input#gotopagebut {
+ background: #f1f1f1;
+}
+a.imagechangenews_fnode:link, a.imagechangenews_fnode:visited {
+ font-family: 'Microsoft YaHei'!important;
+ background: #114b6f!important;
+ margin-right: 3px!important;
+ width: 18px!important;
+ height: 18px!important;
+ line-height: 18px!important;
+}
+a.imagechangenews_pnode {
+ font-family: 'Microsoft YaHei'!important;
+ margin-right: 3px!important;
+ width: 18px!important;
+ height: 18px!important;
+ line-height: 18px!important;
+}
+.imagechangenews_fnode, .imagechangenews_pnode {
+ padding: 0 0 0 0!important;
+ text-align: center;
+ font-size: 12px!important;
+ font-weight: 600!important;
+ border: none!important;
+}
+/* .fontcolor{
+    color: #000;
+} */
+.fontsize{
+    font-size: 20px;
+    color: red;
+}
